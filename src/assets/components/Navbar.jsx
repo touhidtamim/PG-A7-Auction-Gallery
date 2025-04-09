@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     // main div
     <div className="bg-white shadow-sm">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-5">
         <div className="navbar min-h-16">
           <div className="navbar-start">
             {/* left part */}
