@@ -3,90 +3,64 @@
     "id": 1,
     "title": "Vintage Leica M3 Camera",
     "description": "A classic film camera from the 1950s in excellent condition. This collectible piece features a mechanical rangefinder and is highly sought after by photography enthusiasts.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
+    "currentBidPrice": 3800,
+    "timeLeft": "5 days",
     "bidsCount": 12,
-    "image": "https://i.ibb.co/vmtfG93/leica-camera.jpg"
+    "image": "https://i.ibb.co.com/Fb1spsGR/Bid1-min.png"
   },
   {
     "id": 2,
     "title": "1965 Gibson SG Standard Electric Guitar",
     "description": "Vintage Gibson SG in cherry red finish with original PAF pickups. This iconic instrument has been professionally maintained and produces the classic Gibson tone.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
+    "currentBidPrice": 2650,
+    "timeLeft": "6 days",
     "bidsCount": 15,
-    "image": "https://i.ibb.co/Ybk8hkG/gibson-guitar.jpg"
+    "image": "https://i.ibb.co.com/v6VHwmHW/Bid2-min.png"
   },
   {
     "id": 3,
     "title": "Original Apple Macintosh 128K (1984)",
     "description": "The computer that changed everything. This original Macintosh is in working condition with the original keyboard and mouse. A true piece of computing history.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
+    "currentBidPrice": 3999,
+    "timeLeft": "1 days",
     "bidsCount": 8,
-    "image": "https://i.ibb.co/g9PYGjz/vintage-mac.jpg"
+    "image": "https://i.ibb.co.com/ynSGLg0y/Bid3-min.png"
   },
   {
     "id": 4,
     "title": "Rolex Submariner 16610",
     "description": "Classic stainless steel Rolex Submariner with black dial and bezel. This timepiece comes with all original documentation and box.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
+    "currentBidPrice": 2820,
+    "timeLeft": "4 days",
     "bidsCount": 12,
-    "image": "https://i.ibb.co/D5FbGt1/rolex-watch.jpg"
+    "image": "https://i.ibb.co.com/t1yfj9T/Bid4-min.png"
   },
   {
     "id": 5,
     "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
     "description": "A rare first edition, first printing of this American classic novel published in 1925. The book maintains its original dust jacket and is in remarkable condition.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
+    "currentBidPrice": 2860,
+    "timeLeft": "1 days",
     "bidsCount": 10,
-    "image": "https://i.ibb.co/YdZnKbG/gatsby-book.jpg"
+    "image": "https://i.ibb.co.com/j7hMp6s/bid-5.jpg"
   },
   {
     "id": 6,
     "title": "Mid-Century Modern Eames Lounge Chair",
     "description": "Authentic Herman Miller Eames lounge chair and ottoman in rosewood and black leather. This iconic piece of furniture design history is in excellent condition.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
+    "currentBidPrice": 2349,
+    "timeLeft": "3 days",
     "bidsCount": 9,
-    "image": "https://i.ibb.co/VLqR108/eames-chair.jpg"
+    "image": "https://i.ibb.co.com/V0dKbn6c/Bid5-min.png"
   },
   {
     "id": 7,
     "title": "Banksy Original Screen Print",
     "description": "Limited edition screen print signed and numbered by the elusive street artist Banksy. Comes with certificate of authenticity from Pest Control.",
-    "currentBidPrice": 2850,
+    "currentBidPrice": 1899,
     "timeLeft": "2 days",
     "bidsCount": 14,
-    "image": "https://i.ibb.co/VxBs4jv/banksy-print.jpg"
-  },
-  {
-    "id": 8,
-    "title": "1957 Fender Stratocaster Guitar",
-    "description": "Vintage Fender Stratocaster in sunburst finish with maple neck. This instrument has been played but well-maintained and carries the distinctive tone of early Stratocasters.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
-    "bidsCount": 18,
-    "image": "https://i.ibb.co/dBCsBzv/fender-guitar.jpg"
-  },
-  {
-    "id": 9,
-    "title": "Rare Patek Philippe Nautilus 5711",
-    "description": "One of the most sought-after luxury watches in the world. This stainless steel Nautilus features the iconic blue dial and comes with full documentation.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
-    "bidsCount": 22,
-    "image": "https://i.ibb.co/wC8Pnmg/patek-watch.jpg"
-  },
-  {
-    "id": 10,
-    "title": "Original Star Wars Movie Poster (1977)",
-    "description": "Style C poster from the original theatrical release of Star Wars. This rare poster is in very good condition and has been professionally framed.",
-    "currentBidPrice": 2850,
-    "timeLeft": "2 days",
-    "bidsCount": 11,
-    "image": "https://i.ibb.co/xFzDNK5/star-wars-poster.jpg"
+    "image": "https://i.ibb.co.com/B5ZVdsNM/bid-7.jpg"
   }
+  
 ]
