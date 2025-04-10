@@ -18,13 +18,13 @@ const FavoriteItems = ({ favoriteItems, totalBidAmount, removeFromFavorites }) =
           <hr className="mt-6 text-gray-200 w-full mb-6 "  />
           <div className="flex justify-between items-center opacity-90">
               <span className="font-semibold pl-5">Total bids Amount</span>
-              <span className="font-semibold pr-5"> $0000</span>
+              <span className="font-semibold pr-7"> $0000</span>
             </div>
         </div>
       ) : (
         <div className="space-y-4">
           {favoriteItems.map((item) => (
-            <div key={item.id} className="flex justify-between items-center border-b pb-3">
+            <div key={item.id} className="flex justify-between items-center border-b border-gray-300 pb-3">
               <div className="flex items-center gap-3">
                 <div className="avatar">
                   <div className="mask mask-squircle w-10 h-10">

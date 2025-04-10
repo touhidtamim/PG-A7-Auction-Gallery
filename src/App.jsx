@@ -3,10 +3,11 @@ import './App.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
-import ActiveAuctions from './assets/components/ActiveAuctions';
-import FavoriteItems from './assets/components/FavoriteItems';
 import Banner from './assets/components/Banner'
 import Navbar from './assets/components/Navbar'
+import ActiveAuctions from './assets/components/ActiveAuctions';
+import FavoriteItems from './assets/components/FavoriteItems';
+import Footer from './assets/components/Footer'
 
 
 function App() {
@@ -68,7 +69,7 @@ function App() {
       <div>
       <Navbar/>
       <Banner/>
-      <div className='bg-slate-100 pt-12'>
+      <div className='bg-slate-200 pt-12 pb-10'>
       <h2 className="text-2xl font-bold mb-2 pl-16 text-[#0E2954]">Active Auctions</h2>
       <p className="text-gray-600 pl-16">Discover and bid on extraordinary items</p>
       <div className="container mx-auto px-4 py-8 " >
@@ -91,6 +92,7 @@ function App() {
       </div>
       </div>
       <ToastContainer />
+      <Footer />
       
       </div>
     </>
