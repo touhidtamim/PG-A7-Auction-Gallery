@@ -21,7 +21,9 @@ const FavoriteItems = ({ favoriteItems, totalBidAmount, removeFromFavorites }) =
               <span className="font-semibold pr-7"> $0000</span>
             </div>
         </div>
+
       ) : (
+        
         <div className="space-y-4">
           {favoriteItems.map((item) => (
             <div key={item.id} className="flex justify-between items-center border-b border-gray-300 pb-3">

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const ActiveAuctions = ({ bidItems, favoriteItems, addToFavorites }) => {
-  // Check if an item is in favorites
+  
   const isInFavorites = (itemId) => {
     return favoriteItems.some(item => item.id === itemId);
   };
@@ -19,9 +19,11 @@ const ActiveAuctions = ({ bidItems, favoriteItems, addToFavorites }) => {
               <th>Bid Now</th>
             </tr>
           </thead>
+
           <tbody>
             {bidItems.map(item => (
               <tr key={item.id}>
+
                 <td>
                   <div className="flex items-center space-x-3">
                     <div className="avatar">
@@ -34,9 +36,11 @@ const ActiveAuctions = ({ bidItems, favoriteItems, addToFavorites }) => {
                     </div>
                   </div>
                 </td>
+
                 <td>${item.currentBidPrice.toLocaleString()}</td>
                 <td>{item.timeLeft}</td>
                 <td>
+
                   <button
                     className={`btn btn-ghost btn-circle ${isInFavorites(item.id) ? 'text-red-500 cursor-not-allowed' : 'text-gray-400 hover:text-red-500'}`}
                     onClick={() => !isInFavorites(item.id) && addToFavorites(item)}
@@ -45,6 +49,7 @@ const ActiveAuctions = ({ bidItems, favoriteItems, addToFavorites }) => {
                     <FontAwesomeIcon icon={faHeart} size="lg" />
                   </button>
                 </td>
+                
               </tr>
             ))}
           </tbody>

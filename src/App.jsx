@@ -31,6 +31,7 @@ function App() {
       const newTotal = updatedFavorites.reduce(
         (total, item) => total + item.currentBidPrice, 0
       );
+
       setTotalBidAmount(newTotal);
 
       toast.success(`${item.title} added to favorites!`, {
@@ -43,6 +44,7 @@ function App() {
       });
     }
   };
+
 
   const removeFromFavorites = (itemId) => {
     const updatedFavorites = favoriteItems.filter(item => item.id !== itemId);
@@ -64,6 +66,7 @@ function App() {
   };
   
 
+  
   return (
     <>
       <div>
