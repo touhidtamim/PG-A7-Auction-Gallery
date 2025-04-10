@@ -1,8 +1,8 @@
 
 import './App.css'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
-
 import ActiveAuctions from './assets/components/ActiveAuctions';
 import FavoriteItems from './assets/components/FavoriteItems';
 import Banner from './assets/components/Banner'
@@ -31,8 +31,15 @@ function App() {
         (total, item) => total + item.currentBidPrice, 0
       );
       setTotalBidAmount(newTotal);
-      
 
+      toast.success(`${item.title} added to favorites!`, {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
     }
   };
 
@@ -45,7 +52,14 @@ function App() {
     );
     setTotalBidAmount(newTotal);
     
-
+    toast.info("Item removed from favorites", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+    });
   };
   
 
@@ -76,7 +90,7 @@ function App() {
         </div>
       </div>
       </div>
-      
+      <ToastContainer />
       
       </div>
     </>
