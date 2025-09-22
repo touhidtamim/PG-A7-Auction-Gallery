@@ -3,7 +3,6 @@ import { faBell } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   return (
-    // main div
     <div className="bg-white shadow-sm">
       <div className="container mx-auto px-5">
         <div className="navbar min-h-16">
